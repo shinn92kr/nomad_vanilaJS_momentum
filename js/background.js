@@ -6,6 +6,6 @@ const chosenImage = images[bgRan];
 
 const bgImage = document.createElement("img");
 bgImage.setAttribute("id", "bg-img");
-bgImage.src = `img/${chosenImage}`;
+bgImage.src = `./img/${chosenImage}`;
 
 document.body.appendChild(bgImage);
