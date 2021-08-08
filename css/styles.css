@@ -16,3 +16,10 @@ button {
     z-index: -1;
     object-fit: cover;
 }
+
+#weather {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
